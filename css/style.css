@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* 
+font-family: 'Poppins', sans-serif;
+*/
+/* header part */
+header{
+    background: #5CBAFF;
+    padding: 5px 0;
+}
+header div{
+    width: 52%;
+    margin: auto;
+}
+header div ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div ul li{
+    list-style: none;
+}
+header div ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+header div ul li a img{
+    
+}
+
+/* content part */
+.content_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94vh;
+    background-color: #06283D;
+}
+.all{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+}
+.content h1{
+    color: #67B067;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.content p{
+    color: #fff;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.content h4{
+    color: #fff;
+    font-weight: 300;
+}
+.content h4 i{
+    color: #67B067;
+    font-size: 11px;
+}
+.content button{
+    background-color: #67B067;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+.content button a{
+    color: #fff;
+    text-decoration: none;
+}
+/* form part */
+.contact_form{
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #67B067;
+    padding: 40px 0 50px 0;
+}
+.contact h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact p{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.contact form{
+
+}
+.contact form input{
+    width: 80%;
+    padding: 13px 0 13px 10px;
+    margin-bottom: 8px;
+    border: none;
+    text-transform: capitalize;
+}
+.contact form input[type="submit"]{
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #49864A;
+    font-weight: 500;
+}
